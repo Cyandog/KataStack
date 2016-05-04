@@ -26,4 +26,15 @@ public class StackTest {
 		
 		assertThat(resultado,is(true));
 	}
+	
+	@Test
+	public void AgregarNumeroUnoyDos(){
+		pila = new Stack();
+		
+		boolean resultado =pila.Push(1);
+		boolean resul =pila.Push(2);
+		
+		assertThat(resultado,is(true));
+		assertThat(resul,is(true));
+	}
 }

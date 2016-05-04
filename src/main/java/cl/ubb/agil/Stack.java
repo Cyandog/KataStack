@@ -15,12 +15,11 @@ public class Stack {
 	
 	public boolean Push(int num){
 		tope=tope+1;
-		if(tope==0){
+		if(tope>=0){
 			return true;
 		}else{
 			return false;
 		}
 	}
-
 
 }
