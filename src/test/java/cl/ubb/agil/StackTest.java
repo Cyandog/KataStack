@@ -13,11 +13,9 @@ public class StackTest {
 	public void NuevoStackVacio(){
 		pila = new Stack();
 		
-		int resultado = pila.Push();
+		boolean resultado = pila.NuevaPila();
 		
-		assertThat(resultado,is(-1));
-	
+		assertThat(resultado,is(true));	
 	}
 	
-
 }
