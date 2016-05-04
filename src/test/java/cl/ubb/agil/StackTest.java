@@ -18,4 +18,12 @@ public class StackTest {
 		assertThat(resultado,is(true));	
 	}
 	
+	@Test
+	public void AgregarNumeroUno(){
+		pila = new Stack();
+		
+		boolean resultado =pila.Push(1);
+		
+		assertThat(resultado,is(true));
+	}
 }
