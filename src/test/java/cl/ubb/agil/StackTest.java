@@ -10,12 +10,12 @@ public class StackTest {
 	private Stack pila;
 	
 	@Test
-	public void ConvertirNumeroUno(){
+	public void NuevoStackVacio(){
 		pila = new Stack();
 		
-		int resultado = pila.crearPila();
+		int resultado = pila.Push();
 		
-		assertThat(resultado,is(0));
+		assertThat(resultado,is(-1));
 	
 	}
 	
